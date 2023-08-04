@@ -3,6 +3,9 @@ body, .container{
 }
 .main{
     background-image: url(/images/comics-img1.jpg);
+    background-color: #817878;
+    background-blend-mode: multiply;
+    background-size: cover;
 
 }
 h1{
@@ -26,7 +29,7 @@ form, .contact-container{
     color:rgb(232, 154, 154);
 }
 .form-text:hover{
-    box-shadow: 2px 1px 4px 2px #f00;
+    box-shadow: 2px 1px 4px 2px #CE1212;
 }
 .t-area{
     height:unset;
@@ -34,12 +37,12 @@ form, .contact-container{
 .button{
     height: 5vh;
     width: 6vw;
-    background-color: #f00;
+    background-color: #CE1212;
     color: #fff;
 }
 .button:hover{
     background-color: #fff1f1;
-    color:#f00;
+    color:#CE1212;
     cursor: pointer;
 }
 @media screen and (max-width: 600px) {

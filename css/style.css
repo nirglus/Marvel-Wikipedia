@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     color: #fff;
+    font-family: Cambria;
 }
 .container{
     display: grid;
