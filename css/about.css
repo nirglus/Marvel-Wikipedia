@@ -1,0 +1,8 @@
+body,.container{
+    height:150vh;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
