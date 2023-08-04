@@ -1,6 +1,6 @@
 body{
     margin:0;
-    height:100vh;
+    height:200vh;
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -9,7 +9,7 @@ body{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    height: 100vh;
+    height: 200vh;
     grid-template-areas: 
     "main main main main"
     "main main main main"
