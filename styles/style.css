@@ -22,16 +22,20 @@ body{
   background-color: #000;
   height: 30vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  gap:50vw;
+  gap:40vw;
 }
 .logo img{
+    width:15vw;
+}
+.logo{
     width:15vw;
 }
 a{
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
 }
 nav ul{
     display: flex;
@@ -43,6 +47,21 @@ nav li{
 }
 nav a:hover{
     color: #f00;
+}
+@media screen and (max-width:600px){
+    nav ul{
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .header{
+        gap:0vw;
+    }
+    .logo{
+        width: 53vw;
+    }
+    .logo img{
+        width:100%;
+    }
 }
 .main{
     grid-area: main;
