@@ -45,7 +45,7 @@ nav ul{
 nav li{
     list-style: none;
 }
-nav a:hover{
+nav a:hover, .icons a:hover{
     color: #f00;
 }
 @media screen and (max-width:600px){
@@ -68,6 +68,15 @@ nav a:hover{
     background-color: #f00;
 }
 .footer{
-    height: 30vh;
+    display: flex;
+    height: 40vh;
     background-color: #000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+.icons{
+    display: flex;
+    gap: 2vw;
 }
