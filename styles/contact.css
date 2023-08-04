@@ -1,0 +1,40 @@
+body, .container{
+    height: 150vh;
+}
+.main{
+    background-image: url(/images/comics-img1.jpg);
+
+}
+h1{
+    font-size:xx-large;
+    text-transform: uppercase;
+}
+form, .contact-container{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    align-items: center;
+}
+.form-text{
+    width: 40vw;
+    height: 6vh;
+}
+.t-area{
+    height:unset;
+}
+.button{
+    height: 5vh;
+    width: 6vw;
+    background-color: #f00;
+    color: #fff;
+}
+.button:hover{
+    background-color: #fff1f1;
+    color:#f00;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .form-text{
+        width: 90%;
+    } 
+}
