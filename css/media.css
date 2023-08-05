@@ -4,6 +4,9 @@ body{
 .container{
     height: fit-content
 }
+.main{
+    background-image: url(/images/pow.jpg);
+}
 .vids-container{
     display: flex;
     flex-wrap: wrap;
