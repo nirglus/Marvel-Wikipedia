@@ -1,5 +1,5 @@
 body,.container{
-    height:150vh;
+    height:fit-content;
 }
 .main{
     background-image: url(/images/comics-img3.jpg);
@@ -7,8 +7,36 @@ body,.container{
     background-color: rgb(95, 93, 93);
     background-blend-mode: multiply;
 }
+.main img{
+    width:40%;
+    box-shadow: 2px 2px 10px 2px #212121;
+    transition: box-shadow 2s;
+}
+.main img:hover{
+    box-shadow: 2px 2px 10px 2px #8f8f8f;
+}
+.about-txt h1:hover{
+    color: #CE1212;
+}
 .about-container{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    gap:4vh;
+    margin: 1% 1%;
+}
+.about-1,.about-2,.about-3{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+@media screen and (max-width:600px){
+    .about-1,.about-2,.about-3{
+        flex-direction: column;
+    }
+    .main img{
+        width:80%;
+    }
 }
