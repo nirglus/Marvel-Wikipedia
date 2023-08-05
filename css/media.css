@@ -5,7 +5,7 @@ body{
     height: fit-content
 }
 .main{
-    background-image: url(/images/pow.jpg);
+    background-image: url(../images/pow.jpg);
 }
 .vids-container{
     display: flex;

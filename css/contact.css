@@ -2,7 +2,7 @@ body, .container{
     height: 150vh;
 }
 .main{
-    background-image: url(/images/comics-img1.jpg);
+    background-image: url(../images/comics-img1.jpg);
     background-color: #817878;
     background-blend-mode: multiply;
     background-size: cover;
