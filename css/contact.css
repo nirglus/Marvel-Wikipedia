@@ -34,9 +34,15 @@ form, .contact-container{
 .t-area{
     height:unset;
 }
+.btndiv{
+    display: flex;
+    width:100vw;
+    justify-content: center;
+    gap: 1vw;
+}
 .button{
-    height: 5vh;
-    width: 6vw;
+    width: 10%;
+    height:5vh;
     background-color: #CE1212;
     color: #fff;
 }
@@ -49,4 +55,7 @@ form, .contact-container{
     .form-text{
         width: 90%;
     } 
+    .button{
+        width: 30vw;
+    }
 }
