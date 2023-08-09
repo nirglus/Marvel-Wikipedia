@@ -51,8 +51,10 @@ nav ul{
 nav li{
     list-style: none;
 }
+
 nav a:hover, .icons a:hover{
     color: #f00;
+    text-shadow: rgb(124, 124, 124) 3px 9px 3px;
 }
 @media screen and (max-width:600px){
     nav ul{
