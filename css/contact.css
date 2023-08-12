@@ -19,6 +19,9 @@ form, .contact-container{
     gap:2vh;
     align-items: center;
 }
+.contact-container{
+
+}
 .form-text{
     width: 40vw;
     height: 6vh;

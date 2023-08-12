@@ -109,3 +109,11 @@ nav a:hover, .icons a:hover{
     from{transform: translateX(100vw);}
     to{transform: translateX(0);}
 }
+@keyframes slideUp{
+    from{transform: translateY(100vh);}
+    to{transform: translateY(0);}
+}
+@keyframes slideDown{
+    from{transform: translateY(-100vh);}
+    to{transform: translateY(0);}
+}
