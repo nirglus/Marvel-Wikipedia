@@ -99,6 +99,11 @@ a:hover{
 h1{
     transition: 1s;
 }
+.home-vid{
+    transform: translateY(100vh);
+    animation: scale 1s ease-in-out forwards;
+}
+
 /* Animations Section */
 @keyframes logo-rotate{
     from{transform: rotateY(0);}
@@ -121,4 +126,12 @@ h1{
 @keyframes slideDown{
     from{transform: translateY(-100vh);}
     to{transform: translateY(0);}
+}
+@keyframes rotate{
+    from{transform: rotate(0);}
+    to{transform: rotate(360deg);}
+}
+@keyframes scale{
+    from{transform: scale(0.5)}
+    to{transform:scale(1)}
 }
