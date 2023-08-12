@@ -35,14 +35,6 @@ body,.container{
     align-items: center;
     gap: 1vw;
 }
-@keyframes slideinR{
-    from{transform: translateX(-100vw);}
-    to{transform: translateX(0);}
-}
-@keyframes slideinL{
-    from{transform: translateX(100vw);}
-    to{transform: translateX(0);}
-}
 .about-1{
     transform: translateX(-100vw);
     animation: slideinR 2s ease-in-out forwards;

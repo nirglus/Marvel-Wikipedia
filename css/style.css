@@ -32,10 +32,6 @@ body{
     width:20vw;
     animation: logo-rotate 5s 5s infinite;
 }
-@keyframes logo-rotate{
-    from{transform: rotateY(0);}
-    to{transform: rotateY(360deg)}
-}
 .logo{
     width:10vw;
 }
@@ -99,4 +95,17 @@ nav a:hover, .icons a:hover{
 .logo-gif img{
     width:10vw;
     filter: drop-shadow(-2px 4px 3px rgb(98, 98, 98));
+}
+/* Animations Section */
+@keyframes logo-rotate{
+    from{transform: rotateY(0);}
+    to{transform: rotateY(360deg)}
+}
+@keyframes slideinR{
+    from{transform: translateX(-100vw);}
+    to{transform: translateX(0);}
+}
+@keyframes slideinL{
+    from{transform: translateX(100vw);}
+    to{transform: translateX(0);}
 }
