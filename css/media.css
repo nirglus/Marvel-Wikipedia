@@ -12,11 +12,12 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    transform: translateY(100vh);
+    animation: slideUp 3s ease-in-out forwards;
 }
 .video{
     width: 33.3%;
     height: 35vh;
-    animation: rotate 5s;
 }
 @media screen and (max-width:600px){
     .vids-container{
