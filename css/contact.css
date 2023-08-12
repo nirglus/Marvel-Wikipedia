@@ -19,10 +19,6 @@ form, .contact-container{
     gap:2vh;
     align-items: center;
 }
-.contact-container h1{
-    transform: translateY(-100vh);
-    animation: slideDown 1s ease-in-out forwards;
-}
 .form-text{
     width: 40vw;
     height: 6vh;
@@ -31,20 +27,44 @@ form, .contact-container{
     border:none;
     transition: 0.7s;
 }
-::placeholder{
-    color:rgb(232, 154, 154);
+.contact-container h1{
+    transform: translateY(-100vh);
+    animation: slideDown 0.5s ease-in-out forwards;
 }
-.form-text:hover{
-    box-shadow: 2px 1px 4px 2px #CE1212;
+.ftxt1{
+    transform: translateX(-100vw);
+    animation: slideinR 0.5s 0.5s ease-in-out forwards;
+}
+.ftxt2{
+    transform: translateX(100vw);
+    animation: slideinL 0.5s 1s ease-in-out forwards;
+}
+.ftxt3{
+    transform: translateX(-100vw);
+    animation: slideinR 0.5s 1.5s ease-in-out forwards;
+}
+.ftxt4{
+    transform: translateX(100vw);
+    animation: slideinL 0.5s 2s ease-in-out forwards;
 }
 .t-area{
-    height:unset;
+    transform: translateX(-100vw);
+    animation: slideinR 0.5s 2.5s ease-in-out forwards;
+    height:40vh;
 }
 .btndiv{
     display: flex;
     width:100vw;
     justify-content: center;
     gap: 1vw;
+    transform: translateX(100vw);
+    animation: slideinL 0.5s 3s ease-in-out forwards;
+}
+::placeholder{
+    color:rgb(232, 154, 154);
+}
+.form-text:hover{
+    box-shadow: 2px 1px 4px 2px #CE1212;
 }
 .button{
     width: 10%;
