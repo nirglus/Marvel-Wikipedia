@@ -15,6 +15,9 @@ body,.container{
 .main img:hover{
     box-shadow: 2px 2px 10px 2px #8f8f8f;
 }
+.about-txt h1{
+    transition: 1s;
+}
 .about-txt h1:hover{
     color: #CE1212;
 }
