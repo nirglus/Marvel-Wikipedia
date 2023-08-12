@@ -37,15 +37,15 @@ body,.container{
 }
 .about-1{
     transform: translateX(-100vw);
-    animation: slideinR 2s ease-in-out forwards;
+    animation: slideinR 1.5s ease-in-out forwards;
 }
 .about-2{
     transform: translateX(100vw);
-    animation: slideinL 2s 2s ease-in-out forwards;
+    animation: slideinL 1.5s 1.5s ease-in-out forwards;
 }
 .about-3{
     transform: translateX(-100vw);
-    animation: slideinR 2s 4s ease-in-out forwards;
+    animation: slideinR 1.5s 3s ease-in-out forwards;
 }
 @media screen and (max-width:600px){
     .about-1,.about-2,.about-3{

@@ -112,13 +112,10 @@ nav a:hover, .icons a:hover{
     100%{transform: translateX(0);}
 }
 @keyframes slideUp{
-    0%{transform: translateY(100vh);}
-    98%{transform: translateX(-1vh);}
-    100%{transform: translateX(0);}
+    from{transform: translateY(100vh);}
+    to{transform: translateY(0);}
 }
 @keyframes slideDown{
-    0%{transform: translateY(-100vh);}
-    98%{transform: translateX(1vh);}
-    100%{transform: translateX(0);}
+    from{transform: translateY(-100vh);}
+    to{transform: translateY(0);}
 }
-
