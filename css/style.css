@@ -102,18 +102,23 @@ nav a:hover, .icons a:hover{
     to{transform: rotateY(360deg)}
 }
 @keyframes slideinR{
-    from{transform: translateX(-100vw);}
-    to{transform: translateX(0);}
+    0%{transform: translateX(-100vw);}
+    98%{transform: translateX(0.5vw);}
+    100%{transform: translateX(0);}
 }
 @keyframes slideinL{
-    from{transform: translateX(100vw);}
-    to{transform: translateX(0);}
+    0%{transform: translateX(100vw);}
+    98%{transform: translateX(-1vw);}
+    100%{transform: translateX(0);}
 }
 @keyframes slideUp{
-    from{transform: translateY(100vh);}
-    to{transform: translateY(0);}
+    0%{transform: translateY(100vh);}
+    98%{transform: translateX(-1vh);}
+    100%{transform: translateX(0);}
 }
 @keyframes slideDown{
-    from{transform: translateY(-100vh);}
-    to{transform: translateY(0);}
+    0%{transform: translateY(-100vh);}
+    98%{transform: translateX(1vh);}
+    100%{transform: translateX(0);}
 }
+
