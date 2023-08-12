@@ -1,5 +1,6 @@
 body, .container{
     height: 150vh;
+    overflow-x: hidden;
 }
 .main{
     background-image: url(../images/comics-img1.jpg);
