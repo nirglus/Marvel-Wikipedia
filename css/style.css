@@ -94,7 +94,7 @@ a:hover{
 }
 .logo-gif img{
     width:10vw;
-    filter: drop-shadow(-2px 4px 3px rgb(98, 98, 98));
+    filter: drop-shadow(-2px 4px 3px rgb(74, 74, 74));
 }
 h1{
     transition: 1s;
