@@ -11,6 +11,8 @@ body,.container{
     flex-wrap: wrap;
     align-items: start;
     justify-content: center;
+    transform: translateY(100vh);
+    animation: slideUp 1.5s ease-in-out forwards;
 }
 .movie-card{
     display: flex;
