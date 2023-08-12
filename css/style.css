@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     color: #fff;
     font-family: Cambria;
+    overflow-x: hidden;
 }
 .container{
     display: grid;
