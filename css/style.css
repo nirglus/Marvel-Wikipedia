@@ -50,7 +50,7 @@ nav li{
     list-style: none;
 }
 
-nav a:hover, .icons a:hover{
+a:hover{
     color: #f00;
     text-shadow: rgb(124, 124, 124) 3px 9px 3px;
     transform: scale(1.5);
@@ -95,6 +95,9 @@ nav a:hover, .icons a:hover{
 .logo-gif img{
     width:10vw;
     filter: drop-shadow(-2px 4px 3px rgb(98, 98, 98));
+}
+h1{
+    transition: 1s;
 }
 /* Animations Section */
 @keyframes logo-rotate{
