@@ -48,8 +48,11 @@ nav ul{
 }
 nav li{
     list-style: none;
+    transition:all 1s;
 }
-
+nav li:hover{
+    transform: scale(1.2);
+}
 a:hover{
     color: #f00;
     text-shadow: rgb(124, 124, 124) 3px 9px 3px;
