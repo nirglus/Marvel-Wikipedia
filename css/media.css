@@ -16,6 +16,7 @@ body{
 .video{
     width: 33.3%;
     height: 35vh;
+    animation: rotate 5s;
 }
 @media screen and (max-width:600px){
     .vids-container{
